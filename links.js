@@ -37,7 +37,7 @@ function eastClick(){
 }
 
 function signup(){
-  location = "/Users/trippytrey/Documents/HTML/322Proj/signup.html";
+  location = "signup.html";
 }
 
 /* gets username and password and sends user back to index screen */
