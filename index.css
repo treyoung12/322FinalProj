@@ -1,0 +1,349 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    height: 85px;
+}
+
+/* CSS for frequently asked questions */
+#faq1{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#faq2{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+#faq3{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+/*Style h1 and h2 headers */
+h1{
+  margin-left: 50px;
+  font-family: Marker Felt;
+
+}
+
+h2{
+  text-align: center;
+  font-size: 5em;
+  font-family: Jazz LET, fantasy;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: right;
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 25px 16px;
+    font-family: Jazz LET, fantasy;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    color: red;
+}
+
+/* Change color on click */
+.topnav a:active {
+    color: red;
+}
+/* Style for the logo */
+.logo a{
+    float: left;
+    display: block;
+    font-family: chalkduster, fantasy;
+    color: #38ACEC;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+
+}
+
+/* changes color on link and color for every link for news on index */
+.news1 a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.news1 a:hover {
+    color: red;
+}
+.news1 a:active {
+    color: red;
+}
+
+.news2 a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.news2 a:hover {
+    color: red;
+}
+.news2 a:active {
+    color: red;
+}
+
+.news3 a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.news3 a:hover {
+    color: red;
+}
+.news3 a:active {
+    color: red;
+}
+
+.news4 a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.news4 a:hover {
+    color: red;
+}
+.news4 a:active {
+    color: red;
+}
+
+.news5 a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.news5 a:hover {
+    color: red;
+}
+.news5 a:active {
+    color: red;
+}
+
+.news6 a{
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+
+}
+.news6 a:hover {
+    color: red;
+}
+.news6 a:active {
+    color: red;
+}
+/* Style the transitions*/
+.transitions {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-image: url('wing12.jpg');
+
+    animation-name: headChange;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+/* gives percentages of time each photo is live */
+@keyframes headChange {
+    0% { background-image: url('wing12.jpg')}
+    20% { background-image: url('yeezy.jpg')}
+    40% { background-image: url('theTen.jpg')}
+    60% { background-image: url('hurrache.jpg')}
+    80% { background-image: url('700.jpg')}
+}
+
+/* makes all the photos on index in line with eachother */
+figure{
+  display: inline-block;
+  margin: 0;
+}
+
+figcaption{
+  font-size: 1.5em;
+  text-align: center;
+
+}
+
+/* small styling effects for id's throughout the calendar and index */
+#dapper{
+  margin-right: 30px;
+}
+
+#marTop{
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+#indexHead{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.content{
+  background-color: #ddd;
+  padding: 30px;
+}
+
+#releaseHead{
+  margin-bottom: 0px;
+}
+
+#marginMiddle{
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+#may{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2.5em;
+}
+
+/* styling for the calendar headers and links for the calendar */
+.mayDates{
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2.5em;
+}
+
+.mayDates a{
+  color: green;
+  text-decoration: none;
+
+}
+.mayDates a:hover {
+    color: red;
+}
+.mayDates a:active {
+    color: red;
+}
+
+#june{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2.5em;
+}
+
+.juneDates{
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2.5em;
+}
+
+.juneDates a{
+  color: green;
+  text-decoration: none;
+
+}
+.juneDates a:hover {
+    color: red;
+}
+.juneDates a:active {
+    color: red;
+}
+
+#july{
+  margin-bottom: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2.5em;
+}
+
+.julyDates{
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 2.5em;
+}
+
+.julyDates a{
+  color: green;
+  text-decoration: none;
+
+}
+.julyDates a:hover {
+    color: red;
+}
+.julDates a:active {
+    color: red;
+}
+/* Style the content */
+.indexContent {
+    background-color: #ddd;
+    padding: 30px;
+    display: table;
+}
+
+/* Style the footer */
+.footer {
+  overflow: hidden;
+  background-color: #333;
+  height: 85px;
+}
+
+#link1{
+  margin-top: 0px;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 25px;
+}
+
+/* button styling */
+button{
+  border: none;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+#signupPara{
+  font-size: 18px;
+  color: white;
+  font-style: bold;
+  float: right;
+  margin-bottom: 7px;
+}
+
+#signupButton{
+  float:right;
+}
+
+#userName{
+  height: 75px;
+  font-size: 18pt;
+}
+
+#userPass{
+  height: 75px;
+  font-size: 18pt;
+}

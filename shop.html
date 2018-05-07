@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sneak Peak</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "index.css"/>
+<script src = "links.js"> </script>
+</head>
+<body>
+
+  <!-- Top navigation bar to move around webiste -->
+<div class="topnav">
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/faq.html">FAQ</a>
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/shop.html">Shop</a>
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/calendar.html">Calendar</a>
+  <a href = "file:///Users/trippytrey/Documents/HTML/322Proj/index.html#"> Home </a>
+
+  <div class = "logo">
+    <a href = "file:///Users/trippytrey/Documents/HTML/322Proj/index.html#"> Sneak Peak </a>
+  </div>
+</div>
+
+<div class="content" align = "center">
+  <h2 id = "releaseHead">Shop</h2>
+  <p id = "marginMiddle">
+    Here you will be directed to verified sellers that we recommend you buy from.  All merchandise is listed as 100% authentic, excluding Ebay.  If you have questions about authenticity please feel free to contact us.
+  </p>
+  <br>
+
+  <p id = "link1">
+      Ebay
+    <br>
+    <button onclick = "ebayClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      Flight Club
+    <br>
+    <button onclick = "flightClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      Round Two
+    <br>
+    <button onclick = "roundClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      Kith
+    <br>
+    <button onclick = "kithClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      Jimmy Jazz
+    <br>
+    <button onclick = "JJClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      FootLocker
+    <br>
+    <button onclick = "flClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      Trophy Room
+    <br>
+    <button onclick = "trophyClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      StockX
+    <br>
+    <button onclick = "stockClick()"> BUY NOW </button>
+  </p>
+
+  <p id = "link1">
+      EastBay
+    <br>
+    <button onclick = "eastClick()"> BUY NOW </button>
+  </p>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAp5iYo1gNvVNFhrchp0ivU0rpGM6GA_pE",
+    authDomain: "fir-login-fc2fd.firebaseapp.com",
+    databaseURL: "https://fir-login-fc2fd.firebaseio.com",
+    projectId: "fir-login-fc2fd",
+    storageBucket: "fir-login-fc2fd.appspot.com",
+    messagingSenderId: "310357512497"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<!-- script to call the registration button-->
+<script src = "links.js"> </script>
+
+<div class="footer">
+  <p id = "signupPara">
+      Register for updates below
+      <br>
+      <br>
+      <!-- Creates signup button -->
+    <button onclick = "signup()" id = "signupButton"> SIGN UP HERE </button>
+  </p>
+</div>
+
+</body>
+</html>

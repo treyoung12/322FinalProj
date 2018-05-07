@@ -1,0 +1,57 @@
+<!DOCTYPE html
+Created BY:
+Trey Young & Jamal Spivey
+>
+<html lang="en">
+<head>
+<title>Sneak Peak</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "index.css"/>
+</head>
+<body>
+
+<!-- Top navigation bar to move around webiste -->
+<div class="topnav">
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/faq.html" title = "Click to see our FAQ">FAQ</a>
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/shop.html" title = "Click to shop">Shop</a>
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/calendar.html" title = "Click to see calendar">Calendar</a>
+  <a href = "file:///Users/trippytrey/Documents/HTML/322Proj/index.html#" title = "Click to go home"> Home </a>
+
+  <div class = "logo">
+    <a href = "file:///Users/trippytrey/Documents/HTML/322Proj/index.html#" title = "Click to go home"> Sneak Peak </a>
+  </div>
+
+</div>
+
+<div class="content">
+
+  <h2 id = "releaseHead"> Register </h2>
+  <div class="container" align = "center">
+      <input type="text" placeholder="Enter Email" class="name" id="userName" size = "40" required/>
+      <input type="password" placeholder="Enter Password" class="password" id="userPass" size = "40" required/>
+      <button class="login" onclick = "register()">Register</button>
+  </div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAp5iYo1gNvVNFhrchp0ivU0rpGM6GA_pE",
+    authDomain: "fir-login-fc2fd.firebaseapp.com",
+    databaseURL: "https://fir-login-fc2fd.firebaseio.com",
+    projectId: "fir-login-fc2fd",
+    storageBucket: "fir-login-fc2fd.appspot.com",
+    messagingSenderId: "310357512497"
+  };
+  firebase.initializeApp(config);
+</script>
+<script src = "links.js"> </script>
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>

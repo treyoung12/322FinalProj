@@ -1,0 +1,114 @@
+<!DOCTYPE html
+Created BY:
+Trey Young & Jamal Spivey
+>
+<html lang="en">
+<head>
+<title>Sneak Peak</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" type = "text/css" href = "index.css"/>
+</head>
+<body>
+
+<!-- Top navigation bar to move around webiste -->
+<div class="topnav">
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/faq.html" title = "Click to see our FAQ">FAQ</a>
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/shop.html" title = "Click to shop">Shop</a>
+  <a href = "/Users/trippytrey/Documents/HTML/322Proj/calendar.html" title = "Click to see calendar">Calendar</a>
+  <a href = "file:///Users/trippytrey/Documents/HTML/322Proj/index.html#" title = "Click to go home"> Home </a>
+
+  <!-- Left corner link to get back to homescreen-->
+  <div class = "logo">
+    <a href = "file:///Users/trippytrey/Documents/HTML/322Proj/index.html#" title = "Click to go home"> Sneak Peak </a>
+  </div>
+
+</div>
+
+<!-- Calls transitions class within div-->
+<div class = "transitions">
+</div>
+
+<div class="indexContent">
+
+  <!-- Current news header-->
+  <h2 id = "indexHead"> Current News </h2>
+
+ <figure class = "news1">
+   <!-- Source Complex.com-->
+   <a href = "http://www.complex.com/style/2018/05/a-look-at-the-gucci-dapper-dan-collection">
+     <img id = "dapper" src="dapperDan.jpg" alt="Dapper Dan Article"/>
+     <figcaption>Take a Look at the Gucci x Dapper Dan Collection</figcaption>
+   </a>
+ </figure>
+
+ <figure class = "news2">
+   <!-- Source SneakerBarDetroit.com-->
+   <a href = "https://sneakerbardetroit.com/air-jordan-13-tinker-release-date/">
+     <img src="tinker.jpg" alt="Tinker Hatfield Article"/>
+     <figcaption>First Look: Tinker Hatfield x Air Jordan XIII</figcaption>
+  </a>
+ </figure>
+
+ <figure class = "news3">
+   <!-- Source Solecollector.com-->
+   <a href = "https://solecollector.com/news/2018/05/kanye-west-fires-yeezy-designer">
+     <img id = "marTop" src="madYe.jpg" alt="Kanye Fires Designer"/>
+     <figcaption>Kanye West Fires Designer After Presenting Stolen Work</figcaption>
+   </a>
+ </figure>
+
+ <figure class = "news4">
+   <!-- Source SneakerBarDetroit.com-->
+   <a href = "https://sneakerbardetroit.com/air-jordan-12-college-navy-130690-445-release-date/">
+     <img src="jordan12.jpg" alt="Jordan 12"/>
+     <figcaption>A 'Navy' Air Jordan XII International Flight Is Coming</figcaption>
+  </a>
+ </figure>
+
+ <figure class = "news5">
+   <!-- Source SneakerBarDetroit.com-->
+   <a href = "https://sneakerbardetroit.com/air-jordan-3-usa-sail-sport-royal-fire-red-136064-140-release-date/">
+     <img id = "marTop" src="jordan3.jpg" alt="Jordan 3"/>
+     <figcaption>Air Jordan III International Flight 'USA' Dropping in July</figcaption>
+  </a>
+ </figure>
+
+ <figure class = "news6">
+   <!-- Source hypebeast.com-->
+   <a href = "https://hypebeast.com/2018/5/billionaire-boys-club-adidas-originals-nmd-hu-pharrell">
+     <img src="newBBC.jpg" alt="New Billionaire Boys Club Adidas"/>
+     <figcaption>New Billionaire Boys Club x adidas NMD Hu Has Surfaced</figcaption>
+  </a>
+ </figure>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.13.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyAp5iYo1gNvVNFhrchp0ivU0rpGM6GA_pE",
+    authDomain: "fir-login-fc2fd.firebaseapp.com",
+    databaseURL: "https://fir-login-fc2fd.firebaseio.com",
+    projectId: "fir-login-fc2fd",
+    storageBucket: "fir-login-fc2fd.appspot.com",
+    messagingSenderId: "310357512497"
+  };
+  firebase.initializeApp(config);
+</script>
+
+<!-- script to call the registration button-->
+<script src = "links.js"> </script>
+
+<div class="footer">
+  <p id = "signupPara">
+      Register for updates below
+      <br>
+      <br>
+      <!-- Creates signup button -->
+    <button onclick = "signup()" id = "signupButton"> SIGN UP HERE </button>
+  </p>
+</div>
+
+</body>
+</html>
