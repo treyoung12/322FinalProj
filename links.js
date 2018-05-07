@@ -44,6 +44,6 @@ function signup(){
 function register() {
     var userName = document.getElementById("userName").value;
     var userPass = document.getElementById("userPass").value;
-    alert("Thank you for creating account.");
+    alert("Thank you for creating an account.  We will email you news updates regularly.");
     location = "index.html";
 }
